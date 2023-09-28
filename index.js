@@ -13,10 +13,10 @@ rl.question('Enter the value for loan amount in dollars ($0.00): ', (loanAmount)
   rl.question('Enter the value for interest rate as a percentage (%): ', (interestRate) => {
     // Prompt the user to enter the loan term in the console
     rl.question('Enter the value for loan term in months: ', (loanTerm) => {
-      // Do something with the 3 variables
+      // Ask for user confirmation
       console.log('The values of loan amount, interest rate, and loan term are:', loanAmount, interestRate, loanTerm);
       rl.question('Do you want to proceed? Y/N: ',  (confirmation) => {
-        console.log(confirmation)
+        
         if (confirmation === 'y' || confirmation ==='Y') {
           // Convert the interest rate to a monthly interest rate
       const monthlyInterestRate = interestRate / 12;
