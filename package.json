@@ -12,6 +12,7 @@
   "author": "Jacqueline Binya",
   "license": "MIT",
   "dependencies": {
+    "chalk": "^5.3.0",
     "prompt-sync": "^4.2.0"
   }
 }
