@@ -53,8 +53,8 @@ rl.question(
             } else {
               // Ask for user confirmation
               log(
-                "The values of loan amount, interest rate, and loan term are:" +
-                  chalk.greenBright(`$${loanAmount} `) +
+                "The values of loan amount, interest rate, and loan term are: " +
+                  chalk.greenBright(`$${loanAmount}, `) +
                   chalk.greenBright(`${interestRate}% `) +
                   chalk.greenBright(`and ${loanTerm} months.`)
               );
