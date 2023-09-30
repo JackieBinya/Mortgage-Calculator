@@ -19,6 +19,7 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
+// Display a warning message alerting users to only input integers or decimal numbers
 log(
   warning.italic(
     "❗️❗️❗️All input amounts should be integers or decimal number format❗️❗️❗️"
@@ -79,7 +80,7 @@ rl.question(
                   );
                 }
 
-                // Log salutation in the console
+                // Log a salutation in the console
                 log(
                   chalk.yellowBright("Thank you for your participation🌟🎉🌟")
                 );
