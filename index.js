@@ -3,8 +3,10 @@ import readline from "readline";
 //Import npm module Chalk
 import chalk from "chalk";
 
-// Chalk Variables
+// Alias for the console.log method for shorter syntax
 const log = console.log;
+
+// Using Chalk to sylye errors and warnings in the console
 const error = chalk.bold.red;
 const warning = chalk.hex("#FFA500");
 
