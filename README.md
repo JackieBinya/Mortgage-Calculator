@@ -13,7 +13,7 @@ git clone git@github.com:JackieBinya/Mortgage-Calculator.git
 ```
 npm i
 ```
-- To run the program run the command:
+- To run the program run the command below and follow prompts in the console:
 ```
 npm run start
 ```
