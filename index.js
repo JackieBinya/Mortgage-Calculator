@@ -105,7 +105,7 @@ const validator = ({ loanAmount, interestRate, loanTerm }) => {
   }
 
   // Validate loan amount
-  if (isNaN(Number(loanAmount)) || Number(loanAmount) === 0)  {
+  if (isNaN(Number(loanAmount)) || Number(loanAmount) === 0) {
     error = "Enter a valid loan amount";
   }
 
